@@ -8,6 +8,8 @@ body {
     margin: 0;
     display: flex;
     justify-content: center;
+    font-family: 'Fira Sans', sans-serif;
+    line-height: 24px;
 }
 
 .wrapper {
@@ -21,6 +23,25 @@ body {
     grid-template-columns: repeat(6, 1fr);
 }
 
+.header h1 {
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 45px;
+    line-height: 45px;
+    margin-bottom: 1rem;
+}
+
+.header h2 {
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 32px;
+    margin-top: 0;
+}
+
+.header p {
+    opacity: 0.6;
+}
+
+
+
 .box__large {
     background-color: #c7ddea;
     grid-column: 1 / span 3;
@@ -28,7 +49,7 @@ body {
     background-image: url(../images/family.png);
     background-repeat: no-repeat;
     background-position: right bottom;
-    background-size: 70%;
+    background-size: 50%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -39,8 +60,10 @@ body {
 .box__large button {
     align-self: flex-start;
     margin-top: 2rem;
-    padding: .5rem;
+    padding: 1rem;
     border: none;
+    font-weight: 700;
+    font-size: 10px;
     border-radius: 9rem;
     width: 6rem;
     background-color: white;
@@ -53,8 +76,8 @@ body {
     align-items: center;
 }
 
-.box__small h2, p {
-    margin: 0;
+.box__small p {
+    font-size: 11px;
 }
 
 .box__small h2 {
@@ -73,5 +96,185 @@ body {
     grid-row: 2;
 }
 
+.menu {
+    display: flex;
+    justify-content: center;
+    background-color: #e5e5e5;
+}
+
+.menu h3 {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    font-size: 12px;
+    opacity: 0.4;
+}
+
+.index h3:nth-child(1) {
+    opacity: 1;
+}
 
 
+
+
+.main__block {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.block__grey {
+    background-color: #a9a19e;
+    grid-column: 1 / -1;
+    height: 30rem;
+    padding-top: 3rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.block__text__right {
+    width: 20rem;
+    height: 20rem;
+    margin-top: 3rem;
+}
+
+.block__text__left {
+    width: 20rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.block__text__left h1 {
+    color: white;
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 45px;
+    font-weight: 900;
+    letter-spacing: -0.02;
+    line-height: 45px;
+}
+
+.block__text__left button {
+    appearance: none;
+    width: 6rem;
+    border: none;
+    padding: .5rem;
+    border-radius: 9rem;
+    background-color: white;
+}
+
+
+
+
+
+.block__yellow {
+    background-color: #fab131;
+    grid-column: 1 / -1;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.block__yellow h1 {
+    color: white;
+    font-size: 45px;
+}
+
+.block__yellow__text {
+    width: 28rem;
+    text-align: center;
+    font-size: 14px;
+}
+
+.squares {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square h2 {
+    justify-content: flex-start;
+    margin-bottom: auto;
+    margin-left: 1rem;
+}
+
+.square p {
+    padding: 6rem;
+    margin-right: 1rem;
+}
+
+.num1 {
+    background-color: #c7ddea;
+    grid-column: 1 / span 2;
+
+}
+
+.num2 {
+    grid-column: 3 / span 2;
+ 
+}
+
+.num3 {
+    background-color: #e5e5e5;
+    grid-column: 5 / span 2;
+
+}
+
+.num4 {
+    grid-column: 1 / span 2;
+
+}
+
+.num5 {
+    background-color: #f17949;
+    grid-column: 3 / span 2;
+}
+
+.num6 p {
+    padding: 7rem;
+}
+
+.num6 {
+    grid-column: 5 / span 2;
+}
+
+footer {
+    height: 20rem;
+    background-color: #777574;
+}
+
+.nav-up {
+    background-color: #a9a19e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1.5rem;
+}
+
+
+
+
+
+
+.header__contact {
+    width: 100%;
+    height: 20rem;
+    background-color: #c7ddea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/man-and-child.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    
+}
+
+.contact h3:nth-child(4) {
+    opacity: 1;
+}
