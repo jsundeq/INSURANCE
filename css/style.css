@@ -177,7 +177,6 @@ body {
 
 .card {
     width: 16rem;
-    height: 19.25rem;
     background-color: #fff;
     display: flex;
     flex-direction: column;
@@ -189,13 +188,14 @@ body {
 
 
 .img-child, .img-adult, .img-old {
-    width: 14.75rem;
-    height: 9.375rem;
+    width: 100%;
+    height: 10rem;
 }
 
 .img-child {
     background-image: url(../images/child.png);
-    background-size: 30%;
+    background-size: 40%;
+    background-position: center -55%; 
     background-repeat: no-repeat;
     background-color: #c7ddea;
 }
@@ -340,7 +340,7 @@ footer {
 
 .main-text {
     font-family: 'Frank Ruhl Libre', serif;
-    font-size: 28px;
+    font-size: 45px;
     width: 19.625rem;
     color: #fff;
 
