@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&family=Frank+Ruhl+Libre:wght@900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>Contact</title>
 </head>
@@ -20,31 +23,32 @@
             <h3>Contact</h3>
         </nav>
 
-        <main class="main-contact">
-            <div class="main-text">
-                <h1>What's on your mind?</h1>
-            </div>
-            <div class="main-input">
-                <h4>Your email</h4>
-                <input class="input__small" type="text">
-                <h4>Your message</h4>
-                <input class="input__large" type="text">
-                <button class="send__message">SEND MESSAGE</button>
-            </div>
+        <main>
+            <section class="main-contact">
+                <div class="main-text">
+                    <h1>What's on your mind?</h1>
+                </div>
+                <div class="main-input">
+                    <h4>Your email</h4>
+                    <input class="input__small" type="text">
+                    <h4>Your message</h4>
+                    <textarea name="text" id="textarea__input" cols="30" rows="10">Dear Insurance company...</textarea>
+                    <button class="send__message">SEND MESSAGE</button>
+                </div>
+            </section> 
             
-        </main>
-
-        <footer>
             <section class="map">
                 <article class="contact__info">
                     <h2>Come visit us!</h2>
                     <p>2219  Griffin Street
                         <br>San Francisco
                     </p>
-                   
                 </article> 
                     <img src="images/needle.png" class="needle" alt="needle">
             </section>
+        </main>
+            
+        <footer class="footer__contact">   
         </footer>
     </div>
 </body>
