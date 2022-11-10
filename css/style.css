@@ -454,7 +454,7 @@ footer {
     
 }
 
-.textarea__input {
+textarea {
     height: 10rem;
     width: 20rem;
     border-radius: 2px;
